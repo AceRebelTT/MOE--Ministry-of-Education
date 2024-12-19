@@ -377,18 +377,21 @@ body, h1, h2, h3, p, ul, li, a {
         text-align: center;
     }
     .testimonial-container {
-    display : flex;
-    flex-wrap : wrap;
-    justify-content : space-between;
-    }
-    .testimonial {
-    background-color : #f2f2f2;
-    border : #ddd solid 1px;
-    padding : 20px;
-    margin : 10px;
-    width : 300px;
-    border-radius : 5px;
-    }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 0;
+      }
+      
+      .testimonial {
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 10px;
+        width: 300px;
+        border-radius: 5px;
+      }
+      
     .ministry-h2 {
     text-align : center;
     font-size : xx-large;
